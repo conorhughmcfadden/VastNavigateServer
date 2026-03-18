@@ -147,8 +147,11 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>del VAST.exe
-del VAST.exe.config
-copy /Y "C:\Program Files (x86)\Union Biometrica\LP Sampler\LPSampler007.hex" "$(TargetDir)\LPSampler007.hex"</PostBuildEvent>
+    <PostBuildEvent>
+      del VAST.exe
+      del VAST.exe.config
+      copy /Y "C:\Program Files (x86)\Union Biometrica\LP Sampler\LPSampler007.hex" "$(TargetDir)"
+      copy /Y "C:\Program Files (x86)\Union Biometrica\VAST\dll\x86\OpenCVSharpExtern.dll" "$(TargetDir)"
+    </PostBuildEvent>
   </PropertyGroup>
 </Project>
