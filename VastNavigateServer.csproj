@@ -49,39 +49,39 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CameraCtrl">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Union Biometrica\VAST\CameraCtrl.dll</HintPath>
+      <HintPath>$(MSBuildProgramFiles32)\Union Biometrica\VAST\CameraCtrl.dll</HintPath>
     </Reference>
     <Reference Include="LPSampler">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Union Biometrica\LP Sampler\LPSampler.exe</HintPath>
+      <HintPath>$(MSBuildProgramFiles32)\Union Biometrica\LP Sampler\LPSampler.exe</HintPath>
     </Reference>
     <Reference Include="OpenCvSharp">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Union Biometrica\VAST\OpenCvSharp.dll</HintPath>
+      <HintPath>$(MSBuildProgramFiles32)\Union Biometrica\VAST\OpenCvSharp.dll</HintPath>
     </Reference>
     <Reference Include="OpenCvSharp.Extensions">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Union Biometrica\VAST\OpenCvSharp.Extensions.dll</HintPath>
+      <HintPath>$(MSBuildProgramFiles32)\Union Biometrica\VAST\OpenCvSharp.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="ProcessImage">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Union Biometrica\VAST\ProcessImage.dll</HintPath>
+      <HintPath>$(MSBuildProgramFiles32)\Union Biometrica\VAST\ProcessImage.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Union Biometrica\VAST\System.Buffers.dll</HintPath>
+      <HintPath>$(MSBuildProgramFiles32)\Union Biometrica\VAST\System.Buffers.dll</HintPath>
     </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.IO.Compression" />
     <Reference Include="System.IO.Compression.FileSystem" />
     <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Union Biometrica\VAST\System.Memory.dll</HintPath>
+      <HintPath>$(MSBuildProgramFiles32)\Union Biometrica\VAST\System.Memory.dll</HintPath>
     </Reference>
     <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Union Biometrica\VAST\System.Numerics.Vectors.dll</HintPath>
+      <HintPath>$(MSBuildProgramFiles32)\Union Biometrica\VAST\System.Numerics.Vectors.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Union Biometrica\VAST\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <HintPath>$(MSBuildProgramFiles32)\Union Biometrica\VAST\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -93,10 +93,10 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Utils">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Union Biometrica\VAST\Utils.dll</HintPath>
+      <HintPath>$(MSBuildProgramFiles32)\Union Biometrica\VAST\Utils.dll</HintPath>
     </Reference>
     <Reference Include="VastIntegration">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Union Biometrica\VAST\VastIntegration.dll</HintPath>
+      <HintPath>$(MSBuildProgramFiles32)\Union Biometrica\VAST\VastIntegration.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
