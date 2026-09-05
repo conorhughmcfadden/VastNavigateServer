@@ -127,6 +127,12 @@ namespace VastNavigateServer
                         _autoSamp.ExecuteVastMethod("RotateCapillary", args);
                         break;
 
+                    case "get_xy_pos":
+                        int[] xyPos = (int[])_autoSamp.ExecuteVastMethod("GetXYPosition", args);
+                        
+                        outputString = "" + xyPos[0] + "," + xyPos[1];
+                        break;
+
                     case "set_autost":
                         _vastWrap.SetAutoStore(true, args[0]);
                         break;
